@@ -1,73 +1,41 @@
-//Вызов prompt возвращает то, что ввёл посетитель – строку или специальное значение null, если ввод отменён.
 
-// var quest = prompt('Каково «официальное» название JavaScript?','')
-// if (quest == 'ECMAScript') {
-//     alert('Верно');
-// }
-// else {
-//     alert('Не знаете? «ECMAScript»!');
-// }
-
-// var number = prompt('Введите число','22')
-// if (number > 0) {
-//     alert('1');
-// }
-// else if (number < 0) {
-//     alert('-1');
-// }
-// else if (number == 0) {
-//     alert('0');
-// }
-// else {
-//     alert('Это не число');
-// }
-
-// var login = prompt('Кто пришел','22');
+// var hour = 9;
 //
-// if (login == 'Админ') {
-//     var pass = prompt('Пароль?','22');
-//     if (pass == '22') {
-//         alert('Добро пожаловать');
-//     }
-//     else if (pass == null) {
-//         alert('Вход отменен');
-//     }
-//     else {
-//         alert('Не верный пароль');
-//     }
+// if (hour < 10 || hour > 18) {
+//   alert( 'Офис до 10 или после 18 закрыт' );
 // }
-//
-// else if (login == null) {
-//     alert('Вход отменен');
-// }
-//
-// else {
-//     alert('Я вас не знаю');
-// }
+// else alert('Wellcome');
 
 
-// if (a + b < 4) {
-//   result = 'Мало';
-// } else {
-//   result = 'Много';
-// }
+// Если первый аргумент – true, то результат заведомо будет true (хотя бы одно из значений – true), и остальные значения игнорируются.
+// var x;
 //
-// var result = (a + b < 4) ? 'Текст 1' : 'текст 2'
+// true || (x = 1);
+//
+// alert(x); // undefined, x не присвоен
+
+// var x;
+// false || (x = 1);
+// alert(x); // 1
+
+// var age = prompt('Введите число', '');
+// // var age = 22;
+// if (age >= 14 && age <= 90) {
+//     alert('hit');
+// }
+// else alert('miss');
 
 
-// var message;
-//
-// if (login == 'Вася') {
-//   message = 'Привет';
-// } else if (login == 'Директор') {
-//   message = 'Здравствуйте';
-// } else if (login == '') {
-//   message = 'Нет логина';
-// } else {
-//   message = '';
+// var age = prompt('Введите число', '');
+// // var age = 22;
+// if (age <= 14 || age >= 90) {
+//     alert('hit');
 // }
-//
-// message = (login == 'Вася') ? 'Привет' :
-// (login == 'Директор') ? 'Здравствуйте' :
-// (login == '') ? 'Нет логина' :
-// '';
+// else alert('miss');
+
+// var age = prompt('Введите число', '');
+// // var age = 22;
+// if (!(age >= 14 && age <= 90)) {
+//     alert('hit');
+// }
+// else alert('miss');
