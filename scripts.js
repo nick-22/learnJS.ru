@@ -1,41 +1,32 @@
+// for (var i = 1; i <= 10; i++) {
+//     if (i % 2 == 0)
+//     alert(i);
+// }
 
-// var hour = 9;
+// for (var i = 0; i < 3; i++) {
+//   alert( "номер " + i + "!" );
+// }
+
+// var i = 0;
+// while (i < 3) {
+//     alert( "номер " + i + "!" );
+//     i++;
+// }
+
+
+// var value = 0;
 //
-// if (hour < 10 || hour > 18) {
-//   alert( 'Офис до 10 или после 18 закрыт' );
-// }
-// else alert('Wellcome');
-
-
-// Если первый аргумент – true, то результат заведомо будет true (хотя бы одно из значений – true), и остальные значения игнорируются.
-// var x;
+// while (true) {
+//     var value = prompt('Введите число больше 100', '0');
 //
-// true || (x = 1);
+//     if (!value || value > 100) break;
+// }
+
+// mark:
+// for (var i = 2; i < 10; i++) {
+//     for (var j = 2; j < i; j++) {
+//         if (i % j ==0) continue mark;
+//     }
 //
-// alert(x); // undefined, x не присвоен
-
-// var x;
-// false || (x = 1);
-// alert(x); // 1
-
-// var age = prompt('Введите число', '');
-// // var age = 22;
-// if (age >= 14 && age <= 90) {
-//     alert('hit');
+//     alert(i);
 // }
-// else alert('miss');
-
-
-// var age = prompt('Введите число', '');
-// // var age = 22;
-// if (age <= 14 || age >= 90) {
-//     alert('hit');
-// }
-// else alert('miss');
-
-// var age = prompt('Введите число', '');
-// // var age = 22;
-// if (!(age >= 14 && age <= 90)) {
-//     alert('hit');
-// }
-// else alert('miss');
