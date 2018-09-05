@@ -1,32 +1,59 @@
-// for (var i = 1; i <= 10; i++) {
-//     if (i % 2 == 0)
-//     alert(i);
-// }
-
-// for (var i = 0; i < 3; i++) {
-//   alert( "номер " + i + "!" );
-// }
-
-// var i = 0;
-// while (i < 3) {
-//     alert( "номер " + i + "!" );
-//     i++;
-// }
-
-
-// var value = 0;
+// switch (browser) {
+//   case 'IE':
+//     alert( 'О, да у вас IE!' );
+//     break;
 //
-// while (true) {
-//     var value = prompt('Введите число больше 100', '0');
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Да, и эти браузеры мы поддерживаем' );
+//     break;
 //
-//     if (!value || value > 100) break;
+//   default:
+//     alert( 'Мы надеемся, что и в вашем браузере все ок!' );
+// // }
+
+// if (browser == 'IE') {
+//     alert( 'О, да у вас IE!' );
+// }
+// else if (browser == 'Chrome'
+// || browser == 'Firefox'
+// || browser == 'Safari'
+// || browser == 'Opera') {
+//     alert( 'Да, и эти браузеры мы поддерживаем' );
+// }
+// else alert( 'Мы надеемся, что и в вашем браузере все ок!' );
+
+// var a = +prompt('a?', '');
+//
+// if (a == 0) {
+//   alert( 0 );
+// }
+// if (a == 1) {
+//   alert( 1 );
+// }
+//
+// if (a == 2 || a == 3) {
+//   alert( '2,3' );
 // }
 
-// mark:
-// for (var i = 2; i < 10; i++) {
-//     for (var j = 2; j < i; j++) {
-//         if (i % j ==0) continue mark;
-//     }
+// var a = +prompt('a?', '');
 //
-//     alert(i);
+// switch (a) {
+//     case 0:
+//         alert(0);
+//         break;
+//
+//     case 1:
+//         alert(1);
+//         break;
+//
+//     case 2:
+//     case 3:
+//         alert( '2,3' );
+//         break;
+//
+//     default:
+//         alert('other');
 // }
